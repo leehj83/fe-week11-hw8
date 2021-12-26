@@ -21,7 +21,7 @@ function TodoItem({todo, onToggle, onRemove}: TodoItemProps){
 
     return (
         <li>
-            <span onClick={handleToggle} style={textStyle}>{ todo.text}({ todo.id})</span>
+            <span onClick={handleToggle} style={textStyle}>{ todo.text}</span>
             <span onClick={handleRemove} style={removeStyle}>(X)</span>
         </li>
     );
